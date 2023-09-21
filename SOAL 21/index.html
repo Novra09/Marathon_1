@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+</head>
+<body>
+    <h1>HALAMAN REGISTER</h1>
+    <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="address@gmail.com" required>
+        <br> <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="password" required>
+        <br><br>
+        <label for="file">Foto ptofil:</label>
+        <input type="file" value="Choose file" required>
+        <br><br>
+        <label for="lahir">Tanggal lahir: </label>
+        <input type="date" name="lahir" id="lahir" required>
+        <br><br>
+        <label for="Gender" id="Gender">Gender:</label>
+        <select name="Gender" id="Gender" required>
+        <option value="G1">Male</option>
+        <option value="G2">Female</option>
+        <option value="G3">Others</option>   
+    </select>
+    <br><br>
+        <input type="submit" value="submit">
+        
+    </form>
+</body>
+</html>
